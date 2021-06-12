@@ -1,0 +1,18 @@
+public static void main(String[] args) {
+  
+    List<Integer> ls = new ArrayList<Integer>();
+    ls.add(40);
+    ls.add(20);
+    ls.add(30);
+    
+    Collections.sort(ls); 
+    
+    for(Integer ms:ls)
+    {
+      
+    System.out.println(ms);
+    }
+    
+    
+  }
+}
