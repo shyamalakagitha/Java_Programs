@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class addStringToArrayList {
+
+	public static void main(String[] args) {
+	    ArrayList<String> strings = new ArrayList<String>();
+	    strings.add("Hello, World!");
+	    strings.add("Welcome to Java World.");
+	    strings.add("This code is running Java ");
+
+	    for (String string : strings) {
+	      System.out.println(string);
+	    }
+	  }
+	}
