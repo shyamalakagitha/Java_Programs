@@ -7,12 +7,40 @@ class intArray {
   
   // How to retrieve all values from Integer array
      System.out.println(intArray[i]);
-    
-  
   }
 //to find last 3rd number:
    System.out.println("Find the last 3rd number:  " + intArray[intArray.length-3]);    
 }
-    
-    
+ }
+###################################################################################################
+2.  int [] f = {1,4,7,3,2,9,5,0};
+  
+  Arrays.sort(f);// It will be still in character array after sorting
+  
+  for(int i=0;i<f.length;i++){
+  
+    System.out.println(f[i]);
   }
+   //System.out.println(f[f.length-2]);
+  
+  //System.out.println(Integer.valueOf(ch)); // It will convert character array to String
+  System.out.println(f[f.length-1]);
+  System.out.println(f[f.length-2]);
+######################################################################################################
+
+3.   int [] f = {1,4,7,3,2,9,5,0};
+  
+  Arrays.sort(f);// It will be still in character array after sorting
+  
+  for(int i=0;i<f.length;i++){
+  
+    System.out.println(f[i]);
+  }
+   //System.out.println(f[f.length-2]);
+  
+  //System.out.println(Integer.valueOf(ch)); // It will convert character array to String
+  System.out.println(f[f.length-1]);
+  System.out.println(f[f.length-2]);
+  
+  System.out.println(f[0]);
+  System.out.println(f[1]);
