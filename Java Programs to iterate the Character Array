@@ -1,0 +1,15 @@
+class charArray {
+  public static void main(String[] args) {
+ char[] ch = {'a', 'g', 'y', 'r'};
+  
+  for(int i=0; i<ch.length; i++){
+  
+  System.out.println(ch[i]);
+  }
+  
+   //to print the last char in an array
+   System.out.println(ch[ch.length-1]);
+  
+  
+  }   
+}
