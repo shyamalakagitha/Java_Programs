@@ -1,0 +1,31 @@
+  //1. first check the length of two strings
+  //2. sort the char in the string to compare the values
+  //3. to satisfy 2 point , first convert the string into char array and sort
+  //4. after sort convert back to string from char 
+  //5. companre values of both the strings.
+  
+   String a1 = "abc45";
+  String a2 = "abc45";
+  
+ if(a1.length()==a2.length()){
+   
+   char[] c = a1.toCharArray();
+   char[] c1 = a2.toCharArray();
+   
+   Arrays.sort(c);
+   Arrays.sort(c1);
+ 
+   String s1 = String.valueOf(c);
+   String s2 = String.valueOf(c1);
+   
+   if(s1.equals(s2)){
+   System.out.println("This is anagram");
+   }else
+   {
+   System.out.println("This is not anagram");
+   }
+
+ }else
+ {
+ System.out.println("This is not anagram");
+ }
