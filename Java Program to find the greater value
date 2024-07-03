@@ -1,0 +1,24 @@
+public class Main
+{ 
+    
+  public static void main (String[]args)
+  {
+      int a = 10; 
+    int b= 5; 
+    int c= 25;
+    // find the greater Integer Number
+	System.out.println ("Hello World");
+	if (a>b && a>c)
+	{
+	    System.out.println ("a value greater value " + 'a');
+	}
+	else if(b>a && b>c)
+	{
+	  System.out.println ("b greater number" + 'b');  
+	}
+	else
+	{
+	    System.out.println ("c greater number" + 'c');
+	}
+  }
+}
